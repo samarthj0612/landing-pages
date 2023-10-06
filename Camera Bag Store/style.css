@@ -1,0 +1,175 @@
+*{
+     margin: 0; 
+     padding: 0; 
+     box-sizing: border-box;
+     /* font-family: ""sans-serif""; */
+     font-family: "gilroy";
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+}
+#nav{
+    height: 5%;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 5%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    color: white;
+}
+#search{
+    display: flex;
+}
+#dp{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+#dp div{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url(https://mensopedia.com/wp-content/uploads/2020/05/How-To-Make-A-Male-Model-Portfolio.jpg);
+    background-size: cover;
+}
+#nav #icons{
+    font-size: 25px;
+    color: black;
+}
+#nav #icons .hlight{
+    font-size: 20px;
+    color: white;
+    background-color: RGB(156, 90, 72);
+    border-radius: 50%;
+    padding: 10px;
+}
+#left{
+    height: 100%;
+    width: 70%;
+    background-color: #9c5a48;
+    position: relative;
+}
+#content{
+    height: 50%;
+    width: 60%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    color: white;
+}
+#content h2{
+    font-size: 30px;
+}
+#content h1{
+    font-size: 50px;
+}
+#content p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#content button{
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+}
+#mainimg{
+    /* height: 100%; */
+    width: 60%;
+    position: absolute;
+    top: 40%;
+    right: -70%;
+    transform: translate(0%, -50%);
+    z-index: 9;
+}
+#footer{
+    position: absolute;
+    bottom: 0%;
+    height: 20%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+#down{
+    height: 100%;
+    width: 10%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.para{
+    height: 100%;
+    width: 30%;
+    padding: 20px 25px;
+    font-size: 15px;
+}
+.para h4{
+    color: black;
+}
+#right{
+    height: 100%;
+    width: 30%;
+    background-color: beige;
+    position: relative;
+}
+#pics{
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    display: flex;
+    flex-direction: column;
+}
+#pics #line{
+    position: absolute;
+    width: 100px;
+    border: 2px solid RGB(156, 90, 72);
+    background-color: RGB(156, 90, 72);
+    border-radius: 20px;
+    top: 36%;
+    right: 120%;
+}
+#pics img{
+    width: 90px;
+}
+#review{
+    width: 70%;
+    height: 12%;
+    background-color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 10px;
+    line-height: 20px
+}
+#review h5{
+    position: absolute;
+    top: -25%;
+}
+#review img{
+    height: 90%;
+    position: absolute;
+    left: -16%;
+}
+#review p{
+    margin-left: 80px;
+    font-size: 15px;
+}
+#review p i{
+    color: rgb(255, 174, 0);
+}

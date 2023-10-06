@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.363), rgba(255, 0, 0, 0.267)), url(https://wallpaperaccess.com/full/2331346.jpg);
+    background-size: cover;
+    background-position: 300px;
+}
+#nav{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    display: flex;justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0px 50px   ;
+}
+#lnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+#lnav h1{
+    color: red;
+}
+#lnav h1:hover{
+    color: transparent;
+    -webkit-text-stroke: 1px red;
+    cursor: pointer;
+}
+#lnav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.226);
+}
+#lnav a:hover{
+    text-decoration: none;
+    color: white;
+}
+#rnav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+}
+#rnav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rnav div img{
+    height: 30px;
+    border-radius: 5px;
+}
+#content{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+    /* border: 1px solid white; */
+    /* width: 50%; */
+}
+#content #series{
+    display: flex;
+    align-items: center;
+}
+#content #series h2{
+    font-weight: lighter;
+}
+#content #series i{
+    font-size: 40px;
+    color: red;
+}
+#content h1{
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+#content p{
+    font-size: 20px;
+}
+#content #button{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#content #button .b1,
+#content #button .b2{
+    height: 100%;
+    width : 45%;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#content #button .b1:hover,
+#content #button .b2:hover{
+    cursor: pointer;
+    font-size: 25px;
+    transition: all 0.5s;
+}
+#content #button .b2{
+    background-color: rgba(255, 255, 255, 0.158);
+    color: white;
+}
+#footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 6%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background :rgba(0, 0, 0, 0.363);
+    padding: 0px 20px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+    padding: 0px 10px;
+    border-bottom: 3px solid transparent;
+}
+#footer a:hover{
+    border-bottom: 3px solid red;
+}
+#main1{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, black, transparent, black), url(https://img.wallpapersafari.com/desktop/1680/1050/24/74/zgeTuV.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#nav1{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 50px;
+}
+#nav1 h1{
+    font-size: 50px;
+    color: RGB(229, 8, 21);
+}
+#nav1 #btns{
+    display: flex;
+}
+#nav1 #btns #lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 0px 10px;
+}
+#nav1 #btns #signin{
+    border-radius: 8px;
+    background-color: RGB(229, 8, 21);
+    padding: 7px 15px;
+}
+#content1{
+    height: 50%;
+    width: 50%;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+}
+#content1 p{
+    font-size: 20px;
+}
+#content1 #email{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+}
+#content1 #email #eml1{
+    height: 100%;
+    width: 70%;
+    padding-left: 20px;
+    font-size: 20px;
+}
+#content1 #email #eml2{
+    height: 100%;
+    width: 30%;
+    background-color: RGB(227, 9, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

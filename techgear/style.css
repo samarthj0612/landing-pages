@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.788);
+    position: relative;
+    overflow: hidden;
+}
+#nav{
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    color: white;
+    z-index: 999;
+}
+#nav h1 span{
+    background-color: #08a3d9;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: rgb(51, 51, 51);
+    margin: 0px 2px;
+}
+#nav #links{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+#nav #links a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 10px;
+    
+}
+#nav #links a:hover{
+    border-bottom-color: #08a3d9;
+    color: #08a3d9;
+}
+#nav #links #signin{
+    border: 1px solid white;
+    padding: 8px 25px;
+}
+#nav #links #signin:hover{
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #08a3d9;
+    color: white;
+    transition: all 0.8s;
+}
+#nav .ri-menu-line{
+    display: none;
+}
+#content{
+    height: 60%;
+    width: 40%;
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 100px;
+    top: 20%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+#content p{
+    font-size: 15px;
+}
+#content #btns{
+    height: 50px;
+    width: 60%;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#content #btns button{
+    height: 80%;
+    width: 45%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+}
+#content #btns #btn1{
+    border: 1px solid #02c1fd;
+    background-color: #02c1fd;
+    color: white;
+}
+#content #btns #btn2{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+#content #highlight{
+    transform-origin: 50% 50%;
+    transform: rotate(90deg);
+    font-size: 220px;
+    position: absolute;
+    top: 20%;
+    right: -150%;
+    font-family: "gilroy";
+    color: #02c1fd;
+    text-shadow: 1px -1.5px 1.5px white;
+}
+#content #img1{
+    height: 160%;
+    position: absolute;
+    top: -25%;
+    right: -128%;
+    filter: drop-shadow(2px 2px 5px white);
+}
+#content #img2{
+    position: absolute;
+    height: 50%;
+    bottom: -30%;
+    right: -50%;
+    filter: drop-shadow(2px 2px 5px white);
+}
+@media(max-width : 500px){
+    #nav{
+        padding: 30px 30px;
+        justify-content: space-between;
+    }
+    #links{
+        position: absolute;
+        right: 0%;
+        top: 30%;
+        flex-direction: column;
+    }
+    #links a{
+        display: none;
+    }
+    #nav .ri-menu-line{
+        display: block;
+    }
+}

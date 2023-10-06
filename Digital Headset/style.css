@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+    color: white;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #e45a5d;
+}
+#nav{
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%, 0%);
+}
+#nav h1{
+    font-family: "blackchancery";
+    letter-spacing: 3px;
+    font-size: 25px;
+    color: rgb(65, 65, 65);
+    color: white;
+    /* -webkit-text-stroke: 0.5px rgb(65, 65, 65); */
+    text-shadow: 2px 2px 1px black;
+}
+#nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+#nav div a{
+    text-decoration: none;
+    /* border-radius: 5px; */
+    /* padding: 3px 10px; */
+}
+#nav div i{
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 30px;
+    background-color:rgba(0, 0, 0, 0.075);
+}
+#nav div i:hover{
+    
+    background-color:rgba(0, 0, 0, 0.137);
+}
+#nav div a:hover{
+    /* background-color: rgba(0, 0, 0, 0.151); */
+    border-bottom: 2px solid white;
+}
+#content{
+    height: 50%;
+    width: 30%;
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+}
+#content h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    /* font-weight: 500; */
+}
+#content #button{
+    display: flex;
+    height: 40px;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#button #b1{
+    background-color: rgb(64, 66, 66);
+    border: 3.5px solid white;
+    border-right: none;
+}
+#button #b2{
+    color: rgb(48, 50, 50);
+    border: 3.5px solid rgb(64, 66, 66);
+    border-left: none;
+}
+#button #b1, #button #b2{
+    height: 100%;
+    width: 50%;
+    /* border: none; */
+    border: 3.5px solid rgb(64, 66, 66);
+}
+#content h2{
+    font-weight: 500;
+}
+#img{
+    position: absolute;
+    height: 88%;
+    background-size: cover;
+    bottom: 4%;
+    right: 15%;
+}
+#slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 20px;
+}
+#slide div{
+    border: 2px solid white;
+    padding: 0px 5px;
+    margin-right: 10px;
+}
+#slide h4{
+    font-weight: 500;
+}
+#slide i{
+    font-size: 30px;
+}
+#footer{
+    height: 60px;
+    width: 80%;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    align-items: center;
+}
+#footer div{
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+#footer div span{
+    color: rgb(65, 66, 66);
+    font-weight: 600;
+}
+#footer div i{
+    font-size: 25px;
+}
+#footer div:hover{
+    background-color: rgba(0, 0, 0, 0.103);
+    border-radius: 50%;
+    padding: 10px;
+}

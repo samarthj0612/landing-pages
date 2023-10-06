@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#nav{
+    /* background-color: rgba(255, 255, 255, 0.247); */
+    height: 10%;
+    width: 40%;
+    position: absolute;
+    top: 5%;
+    left: 60.3%;
+    transform: translate(-50%, 0%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: "gilroy";
+    /* font-family: "made bon voyage"; */
+}
+#nav a{
+    text-decoration: none;
+    color: aliceblue;
+    /* background-color: rgba(255, 255, 255, 0.185); */
+    padding: 3px 8px;
+    border-radius: 5px;
+    border-bottom: 3px solid transparent;
+}
+#nav a:hover{
+    /* background-color: rgb(221, 121, 19); */
+    color: rgb(251, 180, 67);
+    border-bottom: 3px solid rgb(221, 121, 19);
+}
+#nav i{
+    /* background-color: black; */
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+#nav i:hover{
+    background-color: rgba(255, 255, 255, 0.200);
+    background-color: rgb(221, 121, 19);
+    cursor: pointer;
+}
+#left{
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+}
+#logo{
+    font-size: 50px;
+    color: white;
+    color: rgb(254, 201, 79);
+    display: flex;
+    font-family: "endor";
+    font-family: "immortal";    
+    position: relative;
+    letter-spacing: 10px;
+}
+#logo h1{
+    font-weight: 500;
+    -webkit-text-stroke: 2.5px black;
+}
+.bur{
+    position: relative;
+    z-index: 3;
+}
+#logo img{
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    height: 85%;
+    z-index: 2;
+}
+.gur{
+    position: relative;
+    z-index: 1;
+}
+#image{
+    /* border: 3px solid white; */
+    width:90%;
+    height: 70%;
+    box-shadow: 1px 1px 8px rgb(254, 201, 79);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#image:hover{
+    width: 80%;
+    height: 60%;
+    transition: all 1s;
+    box-shadow: 2px 2px 30px rgb(254, 201, 79);
+}
+#right{
+    height: 100%;
+    width: 85%;
+    background-image:linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.479),rgba(97, 72, 26, 0.541)), url(https://images.unsplash.com/photo-1571805618149-3a772570ebcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#display{
+    /* border: 4px solid rgb(243, 24, 24); */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.img{
+    height: 200px;
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+#img1{
+    background-image: url(https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80);
+    background-image: url(https://images.unsplash.com/photo-1633531138911-1dffbaa8d65d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    background-color: aqua;
+}
+#img2{
+    background-image: url(https://images.unsplash.com/photo-1633424234673-c8cd0f4df77b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJ1cmdlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    
+}
+#img3{
+    background-image: url(https://images.unsplash.com/photo-1556761223-4c4282c73f77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80);
+    background-size: cover;
+    background-position: center;
+    
+}

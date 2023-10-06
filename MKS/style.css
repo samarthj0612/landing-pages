@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(31, 73, 31);
+    background-color: rgb(24, 70, 24);
+}
+#nav{
+    height: 15%;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.096); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 100px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid white; */
+}
+#logo img{
+    height: 60px;
+}
+#logo h1{
+    font-size: 50px;
+    font-family: "blackchancery";
+    letter-spacing: 4px;
+    color: rgb(238, 64, 14);
+    font-weight: 500;
+}
+#links{
+    /* border: 2px solid white; */
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 200px;
+}
+#links a, #rnav a{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.329);
+    text-decoration: none;
+    /* background-color: rgba(0, 0, 0, 0.158); */
+    padding: 3px 10px;
+    border-radius: 8px;
+}
+#links a:hover, #rnav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+#rnav{
+    /* border: 2px solid white; */
+    width: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+#rnav i, #rnav a{
+    font-size: 20px;
+}
+#rnav i{
+    background-color: rgba(255, 255, 255, 0.041);
+    border-radius: 50px;
+    padding: 10px;
+}
+#rnav i:hover{
+    background-color: rgba(255, 255, 255, 0.13);
+    cursor: pointer;
+}
+#rnav a{
+    padding: 5px 12px;
+    border: 2px solid rgba(255, 255, 255, 0.349);
+}
+#main1{
+    /* border: 2px solid white; */
+    height: 80%;
+    width: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 135px;
+}
+#name{
+    display: flex;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 20px;
+    left :20px;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.055);
+    color: rgba(255, 255, 255, 0.329);
+}
+#name:hover{
+    background-color: rgba(0, 0, 0, 0.212);
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#name h4{
+    margin-left: 10px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+#name h4:hover{
+    font-size: 18px;
+    letter-spacing: 4px;
+    transition: all 1s;
+}
+#quote{
+    font-size: 30px;
+    font-family: "gilroy";
+    position: absolute;
+    top: 10%;
+    left :20px;
+    color: white;
+}
+#quote h2{
+    font-weight: 500;
+}
+#control{
+    position: absolute;
+    top: 38%;
+    left :20px;
+    /* border: 2px solid white; */
+    line-height: 30px;
+    color: white;
+}
+#control div{
+    display: flex;
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 350px;
+    /* border-radius: 50px; */
+    background-color: white;
+    border-radius: 50px;
+}
+#control select{
+    width: 70%;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 15px;
+    font-size: 15px;
+    /* border: none; */
+}
+#control select:hover{
+    cursor: pointer;
+}
+#control button{
+    width: 30%;
+    border-radius: 0px 50px 50px 0px;
+    background-color:yellow;
+}
+#control button:hover{
+    cursor: pointer;
+    background-color:rgb(238, 64, 15);
+    color: white;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+#control p{
+    margin-left: 15px;
+    font-size: 14px;
+}
+#control p a{
+    color: rgb(3, 219, 3);
+}
+#control p a{text-decoration: none;}
+#control p a:hover{text-decoration: underline;}
+#reviews{
+    /* border: 2px solid black; */
+    height: 15%;
+    width: 60%;
+    position: absolute;
+    top: 60%;
+    left :20px;
+    display: flex;
+}
+#reviews div{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: rgb(57, 214, 102);
+    border: 2px solid white;
+    position: absolute;
+}
+#reviews .dp1{
+    left: 0%;
+    /* background-image: url(bst.jpeg); */
+    /* background-size: cover; */
+    /* background-position: center; */
+}
+#reviews .dp2{
+    left: 8%;
+    /* background-image: url(bst.jpeg); */
+    /* background-size: cover; */
+    /* background-position: center; */
+}
+#reviews .dp3{
+    left: 16%;
+    /* background-image: url(bst.jpeg); */
+    /* background-size: cover; */
+    /* background-position: center; */
+}
+#reviews h4{
+    position: absolute;
+    left: 36%;
+    top: 15%;
+    font-size: 25px;
+    color: white;
+}
+#download{
+    /* border: 2px solid black; */
+    height: 15%;
+    width: 40%;
+    position: absolute;
+    bottom: 10px;
+    left :20px;
+    font-size: 20px;
+    color: white;
+}
+#available{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 70%;
+    width: 100%;
+}
+#available button{
+    height: 80%;
+    width: 45%;
+    /* border: 2px solid white; */
+    background-color: rgba(0, 0, 0, 0.541);
+    border-radius: 10px;
+    color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+#available button:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+}
+#back{
+    height: 80%;
+    width: 35%;
+    /* background-color: rgb(96, 133, 96); */
+    background-color: rgba(255, 255, 255, 0.185);
+    background-color: rgba(0, 0, 0, 0.116);
+    position: absolute;
+    right: 10%;
+    bottom: 0%;
+    border-radius: 45% 45% 0px 0px;
+}
+#back i{
+    font-size: 70px;
+    color: rgb(247, 49, 49);
+    background-color: rgba(255, 255, 255, 0.144);
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 5px;
+    left: 5%;
+}
+#faith{
+    /* border: 2px solid white; */
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.144);
+    height: 110px;
+    width: 90px;
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#ftop{
+    height: 60px;
+    width: 60px;
+    background-color: rgba(255, 255, 255, 0.404);
+    border-radius: 50%;
+    position: relative;
+    transform: translate(-50%, -0%);
+    top: 10%;
+    left: 50%;
+    background-image: url(http://assets.stickpng.com/thumbs/5c7172f5631702026cb2bcf9.png);
+    background-size: cover;
+}
+#back img{
+    height: 600px;
+    position: absolute;
+    left: 15px;
+    bottom: 0%;
+}

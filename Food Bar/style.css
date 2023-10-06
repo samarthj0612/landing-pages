@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+#nav {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+  z-index: 999;
+  padding: 10px 20px 10px 50px;
+}
+#nav i {
+  font-size: 25px;
+  color: black;
+}
+#nav h1 {
+  color: white;
+  margin-left: 50px;
+  font-size: 50px;
+  font-family: "frock thin";
+  letter-spacing: 10px;
+}
+#nav #links {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav #links a {
+  color: white;
+  color: black;
+  text-decoration: none;
+}
+#nav #icons {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav #icons div {
+  height: 40px;
+  width: 40px;
+  background-image: url(https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+#left {
+  height: 100%;
+  width: 15%;
+  background-color: black;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 50px;
+}
+#left h3 {
+  transform-origin: 50% 50%;
+  transform: rotate(270deg);
+}
+#right {
+  height: 100%;
+  width: 85%;
+  background-color: grey;
+}
+#rtop {
+  height: 70%;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+}
+#rtleft {
+  height: 100%;
+  width: 30%;
+  background-color: aqua;
+  background-color: brown;
+  background-color: #282828;
+  position: relative;
+}
+#rtleft img {
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  bottom: -22%;
+  transform: translate(-50%, 0%);
+  z-index: 2;
+  filter: drop-shadow(0px 0px 15px #1b1b1b);
+}
+#rtright {
+  height: 100%;
+  width: 70%;
+  background-color: aquamarine;
+  background-color: black;
+  background-color: white;
+  color: white;
+  color: black;
+  position: relative;
+  z-index: 1;
+}
+#rtright #content {
+  height: 60%;
+  width: 60%;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 25%;
+  right: 20%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#rtright #content h1 {
+  font-size: 85px;
+}
+#rtright #content p {
+  text-align: justify;
+}
+#rtright #content #order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#rtright #content #order div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#rtright #content #order h2 {
+  color: orangered;
+  font-size: 50px;
+}
+#rtright #content #order button {
+  height: 50px;
+  padding: 5px 40px;
+  background-color: #282828;
+  color: white;
+  font-size: 18px;
+}
+#rbtm {
+  height: 30%;
+  width: 100%;
+  background-color: brown;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25%;
+  padding-right: 60px;
+  padding-bottom: 40px;
+}
+#rbtm #card {
+  height: 150px;
+  width: 130px;
+  background-color: black;
+  background-color: #282828;
+  border-radius: 10px;
+  position: relative;
+  color: white;
+  padding: 20px;
+  font-size: 12px;
+}
+#rbtm #card div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#rbtm #card div i {
+  border-radius: 50%;
+  color: black;
+  background-color: white;
+  padding: 5px;
+}
+#rbtm #card img {
+  height: 110px;
+  position: absolute;
+  top: -20%;
+  right: -40%;
+  z-index: 10;
+}
+#footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 50px;
+}
+#footer div {
+  width: 8%;
+}
+#footer i {
+  font-size: 25px;
+}
+#footer #slides {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer #slides div {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: orangered;
+}
+#footer #slides .slide1 {
+  background-color: rgba(255, 68, 0, 0.500);
+}
+#footer #slides .slide2 {
+  background-color: rgba(255, 68, 0, 0.700);
+}
+#footer #slides .slide3 {
+    height: 12px;
+    width: 12px;
+  background-color: orangered;
+}
+#footer #slides .slide4 {
+  background-color: rgba(255, 68, 0, 0.700);
+}
+#footer #slides .slide5 {
+  background-color: rgba(255, 68, 0, 0.500);
+}
+#footer #socialSites {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
